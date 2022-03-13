@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    background:  url(images/nattu-adnan-LUd-OghWPwc-unsplash.jpg);
+    background-position: center;
+   background-size: cover;
+   margin-top: 40px;
+    
+}
+.hero-bg{
+    color: white;
+   font-family: 'Montserrat', sans-serif;;
+   text-align: center;
+   
+   
+}
+
+.hero-bg p {
+    margin-bottom: 3em;
+}
+.res{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    text-transform: uppercase;
+    display: block;
+    font-size: 25px;
+    margin-top: 2em;
+    margin-bottom: .7em;
+    background-color:#01587841;
+
+
+}
+.res-f{
+background-color: white;
+width: 350px;
+color: #000;
+height: 400px;
+text-align: center;
+padding-top: 1em;
+margin: auto;
+border-radius: 5px;
+padding-left: 2em;
+padding-right: 2em;
+margin-bottom: 3em;
+}
+form .form-item{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+
+}
+
+form .form-item .input-box{
+margin: 20px 0 12px 0 ;
+    width: calc(100% / 2 - 20px);
+}
+
+.form-item .input-box input{
+    border-radius: 5px;
+    height: 40px;
+    width: 100%;
+    
+    
+}
+.label{
+    
+    font-weight: 500;
+    margin-bottom: 2px;
+    display: block;
+    font-size: 17px;
+    
+}
+
+form .button{
+
+    height: 45px;
+    margin-left: 5em;
+    margin-top: 2em;
+ 
+  
+}
+form .button input {
+width: 200px;
+height: 100%;
+color: white;
+background-color: #015978;
+font-size: 17px;
+text-align: center;
+border-radius: 5px;
+cursor: pointer;
+
+}
+
+    </style>
+
+<div class="hero-bg">
+ 
+<div class="res">
+<h1 ><span>Make your</span> reservation</h1>
+</div>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis corrupti ab dolore ipsa perspiciatis doloremque quos accusantium fuga recusandae rem.</p>
+<div class="res-f">
+    <form action="index3.html" method="GET">
+        <div class="form-item">
+        <div class="input-box">
+<label for="Destination" class="label">Your Destination </label>
+<input type="text" Name="Your Destination" id="Destination" required>
+</div>
+<div class="input-box">
+    <label for="chick-in" class="label">Chick In </label>
+    <input type="date" name="date" id="chick-in" required>
+</div>
+<div class="input-box">
+    <label for="chick-out" class="label">Chick out </label>
+    <input type="date" name="date" id="chick-out" required>
+</div>
+<div class="input-box">
+    <label for="Rooms" class="label">Rooms </label>
+    <input type="number" name="Rooms" id="Rooms" required>
+</div>
+<div class="input-box">
+    <label for="Adult" class="label">Adult </label>
+    <input type="number" name="Adult" id="Adult" required>
+</div>
+<div class="input-box">
+    <label for="children" class="label">Children </label>
+    <input type="number" name="children" id="children" required>
+</div>
+<div class="button" class="input-box">
+<input type="submit" value="Check Avaliability">
+</div>
+    </form>
+</div>
+</body>
+</html>
